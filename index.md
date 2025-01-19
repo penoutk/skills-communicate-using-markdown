@@ -10,7 +10,7 @@
 
 **What is a header?** A <ins>***header***</ins> is a larger bit of text at the beginning of a section. There are six sizes.
 
-## Example
+#### Example
 
 > ```
 > # Heading 1
@@ -18,8 +18,21 @@
 > ##### Heading 4
 > ```
 
-## Images
+### Images
 
 <img src=https://octodex.github.com/images/welcometocat.png alt=celebrate width=300 align=right>
 
 Images are almost identical to links, but an image starts with an exclamation point `!`. Include descriptive text in the square brackets `![alt-text](image.png)`. This alternate (alt) text is displayed when the image can't be shown, or for the visually impaired. It's also shown at times when your image doesn't display, such as when there's a poor connection. Additionally this text is read aloud for people using screen readers.
+
+### Code Blocks
+
+To create inline code, wrap with backticks `` ` `` and to create a code block, sometimes called a “code fence”, either indent each line by 4 spaces, or place 3 backticks ` ``` ` on a single line above and below the code block. One level of indentation in a code block equals 4 spaces or one tab. An indented code block continues until it reaches a line that is not indented. A code block or span displays every character inside *exactly* as it was typed. However, code blocks can render differently depending on the language.
+
+#### Example
+
+> ```javascript
+> let greeting = "Hello, world!";
+>
+> console.log(greeting);
+> ```
+
