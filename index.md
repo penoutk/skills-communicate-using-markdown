@@ -8,11 +8,13 @@
 - Files with the .md or .markdown extension
 - Sharing snippets of text in Gists
 
+### Headings
+
 **What is a header?** A <ins>***header***</ins> is a larger bit of text at the beginning of a section. There are six sizes.
 
 #### Example
 
-> ```
+> ```markdown
 > # Heading 1
 > ## Heading 2
 > ##### Heading 4
@@ -36,3 +38,16 @@ To create inline code, wrap with backticks `` ` `` and to create a code block, s
 > console.log(greeting);
 > ```
 
+### Task Lists
+
+**What is a task list?** A <ins>***task list***</ins> creates checkboxes to check off. They're very useful for tracking issues and pull requests. If you include a task list in the body of an issue or pull request, you'll see a progress indicator in your issue list. The syntax for task lists is very specific. Be sure to include the spaces where required, or else they won't render.
+
+#### Example
+
+> ```markdown
+> - [x] Turn on GitHub Pages
+> - [ ] Outline my portfolio
+> - [ ] Introduce myself to the world
+> ```
+
+Remember, a task list starts with the syntax `- [ ]`, followed by a space ` ` and then the task list item. The formatting is specific!
